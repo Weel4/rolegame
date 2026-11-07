@@ -1,0 +1,12 @@
+version: 1
+max_material_chars: 300000
+required_files:
+  - path: CLAUDE.md
+    transform: plain
+    canary: "Memory Proxy roleplay"
+  - path: kaanon.md
+    transform: plain
+    canary: "## 1. Nyt"
+  - path: totuus.md
+    transform: reversed_characters
+    # Add a canary from decoded truth only if desired; never log spoilers in CI.
